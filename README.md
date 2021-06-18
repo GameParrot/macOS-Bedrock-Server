@@ -1,5 +1,5 @@
 # macOS-Bedrock-Server
-Mojang Studios only provides a Bedrock Edition server for Windows and Linux, but not macOS. This project will allow you to start the Minecraft: Bedrock Edition server on macOS. It uses the Wine compatibility layer to run the Windows version of the server on Mac.
+Mojang Studios only provides a Bedrock Edition server for Windows and Linux, but not macOS. This project will allow you to start the Minecraft: Bedrock Edition server on macOS. It uses the Wine compatibility layer to run the Windows version of the server on Mac. Tou will need to have git or the Xcode command line tools installed.
 To get started, run
 ```
 git clone https://github.com/GameParrot/macOS-Bedrock-Server.git
