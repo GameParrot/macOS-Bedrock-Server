@@ -17,4 +17,9 @@ fi
 rm -rf /tmp/wine.pkg
 rm -rf /tmp/wine
 rm -rf ./Contents
+if [[ $2 = -v ]] ; then
+WINEPREFIX="$1/prefix" "$1"/wine/bin/wineboot
+else
+WINEPREFIX="$1/prefix" "$1"/wine/bin/wineboot > /dev/null 2>&1
+fi
 Echo 'Successfully installed the Minecraft: Bedrock Edition server for macOS to "'"$1"'". To start the server, run the bedrock_server executable in the server folder.'
