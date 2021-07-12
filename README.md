@@ -9,3 +9,5 @@ chmod +x ./install.sh
 ```
 
 The path to Windows server folder is the path to the folder that contains the Bedrock server for Windows. To run the server after installation, run the bedrock_server executable in the server folder. If Wine asks you to download/install anything, you do not have to download or install it.
+# Screenshot:
+![image](https://user-images.githubusercontent.com/85067619/125362532-0f0db980-e33d-11eb-9ea4-04f7c2cc8dc8.jpg)
