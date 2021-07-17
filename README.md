@@ -14,4 +14,4 @@ The path to Windows server folder is the path to the folder that contains the Be
 # Direct install:
 if you do not have a bedrock server folder, you can use the installer from the Releases. To run it, use install.sh full_server_version. To get the full server version, search the Minecraft Wiki for the game version that you want and the version you need is the Server version. This does not require git or Xcode command line tools to be installed.
 # Note:
-Sometimes, the server will crash when launching it for the first time or when updating it. If it does crash, just try running it a few more times until it starts. The crash is extremely rare after is starts up successfully once unless you are launching a different version of the server.
+Sometimes, the server will crash when launching it for the first time or when updating it. If it does crash, it will automatically restart. To force stop the server, run killall bash and then killall wine64-preloader. The crash is extremely rare after is starts up successfully once unless you are launching a different version of the server.
