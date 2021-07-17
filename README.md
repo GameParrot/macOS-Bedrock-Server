@@ -10,7 +10,7 @@ chmod +x ./install.sh
 
 The path to Windows server folder is the path to the folder that contains the Bedrock server for Windows. To run the server after installation, run the bedrock_server executable in the server folder. If Wine asks you to install anything, you should install it.
 # Screenshot:
-![image](https://user-images.githubusercontent.com/85067619/125362532-0f0db980-e33d-11eb-9ea4-04f7c2cc8dc8.jpg)
+![image](https://user-images.githubusercontent.com/85067619/126051770-9ad2b375-7736-4381-83cf-cb3da2b67832.jpg)
 # Direct install:
 if you do not have a bedrock server folder, you can use the installer from the Releases. To run it, use install.sh full_server_version. To get the full server version, search the Minecraft Wiki for the game version that you want and the version you need is the Server version. This does not require git or Xcode command line tools to be installed.
 # Note:
