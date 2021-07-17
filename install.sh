@@ -22,4 +22,5 @@ WINEPREFIX="$1/prefix" "$1"/wine/bin/wineboot
 else
 WINEPREFIX="$1/prefix" "$1"/wine/bin/wineboot > /dev/null 2>&1
 fi
+rm -rf "$1/prefix/drive_c/windows/system32/winedbg.exe"
 Echo 'Successfully installed the Minecraft: Bedrock Edition server for macOS to "'"$1"'". To start the server, run the bedrock_server executable in the server folder.'
